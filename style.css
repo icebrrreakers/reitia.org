@@ -92,3 +92,37 @@ p {
     max-width: 90%;
   }
 }
+
+.event-card {
+  background: #fffaf0;
+  border: 1px solid #d8c9aa;
+  padding: 36px;
+  margin-bottom: 60px;
+}
+
+.eyebrow {
+  text-transform: uppercase;
+  letter-spacing: 0.12rem;
+  font-size: 0.8rem;
+  color: #7a5c2e;
+  margin-bottom: 8px;
+}
+
+.event-lead {
+  font-size: 1.25rem;
+  line-height: 1.5;
+}
+
+.button {
+  display: inline-block;
+  margin-top: 18px;
+  padding: 12px 20px;
+  background: #1a1a1a;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.button:hover {
+  background: #4a3820;
+}
