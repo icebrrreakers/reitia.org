@@ -10,7 +10,7 @@ body {
   height: 80vh;
   background-image: url('images/brenta-hero.jpg');
   background-size: cover;
-  background-position: center center;
+  background-position: 58% center;
   position: relative;
 }
 
@@ -74,4 +74,21 @@ hr {
 
 p {
   margin-bottom: 20px;
+}
+
+@media (max-width: 700px) {
+  .hero {
+    height: 75vh;
+    background-position: 68% center;
+  }
+
+  h1 {
+    font-size: 3.6rem;
+    letter-spacing: 0.14rem;
+  }
+
+  .tagline {
+    font-size: 1.05rem;
+    max-width: 90%;
+  }
 }
