@@ -136,3 +136,18 @@ p {
 .button:hover {
   background: #4a3820;
 }
+.date-block {
+  margin: 28px 0;
+  padding-left: 18px;
+  border-left: 3px solid #d8c9aa;
+}
+
+.date-block h3 {
+  margin: 0 0 8px 0;
+  font-size: 1.35rem;
+  color: #4a3820;
+}
+
+.date-block p {
+  margin-bottom: 0;
+}
