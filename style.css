@@ -152,6 +152,7 @@ p {
   margin-bottom: 0;
 }
 
+
 .image-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -165,7 +166,8 @@ p {
 
 .image-grid img {
   width: 100%;
-  height: auto;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
   display: block;
   border: 1px solid #d8c9aa;
 }
@@ -178,8 +180,25 @@ p {
 }
 
 .reitia-section,
-.images-section {
+.images-section,
+.press-section,
+.sestante-section {
   margin-bottom: 60px;
+}
+
+.full-image {
+  width: 100%;
+  height: auto;
+  margin: 24px 0 40px;
+  border: 1px solid #d8c9aa;
+}
+
+.image-caption {
+  font-size: 0.95rem;
+  color: #5f574a;
+  margin-top: -24px;
+  margin-bottom: 50px;
+  line-height: 1.5;
 }
 
 @media (max-width: 700px) {
