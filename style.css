@@ -151,3 +151,39 @@ p {
 .date-block p {
   margin-bottom: 0;
 }
+
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  margin: 28px 0 60px;
+}
+
+.image-grid figure {
+  margin: 0;
+}
+
+.image-grid img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border: 1px solid #d8c9aa;
+}
+
+.image-grid figcaption {
+  font-size: 0.9rem;
+  color: #5f574a;
+  line-height: 1.45;
+  margin-top: 8px;
+}
+
+.reitia-section,
+.images-section {
+  margin-bottom: 60px;
+}
+
+@media (max-width: 700px) {
+  .image-grid {
+    grid-template-columns: 1fr;
+  }
+}
