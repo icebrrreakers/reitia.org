@@ -223,3 +223,7 @@ figcaption {
   margin-top: 0.6rem;
   text-align: center;
 }
+
+.gallery {
+  width: 100%;
+}
